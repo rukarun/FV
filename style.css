@@ -386,6 +386,28 @@ p {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .HeaderLogo {
+        transition: opacity .2s;
+    }
+    
+    .HeaderLogo:hover {
+        opacity: .8;
+    }
+    
+    .HeaderNavListItem {
+        transition: opacity .2s;
+    }
+    
+    .HeaderNavListItem:hover {
+        opacity: .8;
+    }
+    
+    .FirstViewContent__buttons a:hover {
+        opacity: .8;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .About {
         flex-direction: column;
